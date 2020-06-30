@@ -16,7 +16,6 @@ I could come up with.
 
 <h2>Expected input</h2>
 Whitespace separated words on the standard output. </br>
-(For this implementation at most 32 of them, as I represent the subsets of the graph with a regular int)
 
 <h2>Output</h2>
 A correct one edit distance ordering of the words. </br>
