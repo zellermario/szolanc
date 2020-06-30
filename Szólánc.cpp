@@ -116,11 +116,6 @@ vector<int> findHamiltonianPath(Graph& G) {
 	return order;
 }
 
-inline void fail() { 
-	cout << "No solution is possible." << endl;
-	exit(0);
-}
-
 /* Returns a valid ordering if a word chain is possible.
    Otherwise it returns an empty vector. 
 */
@@ -177,10 +172,13 @@ int main() {
 	while (cin >> nextWord) {
 		words.push_back(nextWord);
 	}
+	
+	/* Run the solver function and display result. */
 
 	vector<string> result = wordChain(words);
-	if (result.size() == 0) fail();
-	for_each(result.begin(), result.end(), [](string word) {
+	if (result.size() == 0)
+		cout << "No solution is possible with the given words." << endl;
+	else for_each(result.begin(), result.end(), [](string word) {
 		cout << word << " ";
 	});
 
