@@ -18,7 +18,7 @@ I could come up with.
 Whitespace separated words on the standard output. </br>
 
 <h2>Output</h2>
-A correct one edit distance ordering of the words. </br>
+A correct one-edit-distance ordering of the words. </br>
 Or, if none is possible, a message indicating it.
 
 <h2>Compilation and running</h2>
