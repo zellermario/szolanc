@@ -15,7 +15,7 @@ There might be some shortcut to this problem I did not realize just yet, with wh
 I could come up with.
 
 <h2>Expected input</h2>
-Whitespace separated words on the standard output. </br>
+Whitespace separated words on the standard input. </br>
 
 <h2>Output</h2>
 A correct one-edit-distance ordering of the words. </br>
